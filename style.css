@@ -2,25 +2,38 @@
 
 .barra{
     background-color: rgba(255, 255, 255, 0.548);
-    height: 85px;}
+    height: 85px;
+display: flex; /*Alinhar e espaçar itens*/
+align-items: center;
+justify-content: space-around;
+padding: 0 20px;
+}
 body{
     background-color: rgb(82, 82, 82);}
+	margin: 0;
 .logocl{
-    width: 60px;
-    height: 60px;
-    display: inline-block;
+    /*width: 60px;
+    height: 60px; Vamos controlar pelo img*/
+    display: flex; /*Alinha imagem com texto vertical*/
+	align-items: center;
     text-decoration: none;
      border: none;
      cursor: pointer;
+	 margin: 0 15px;/*Marger horizontar de 15 px entre botoes*/
 }
 .logocl img{
     width: 40px;
-    height: 70px;
+    height: 40px;
     display: block;
+	margin-bottom: 5px; /*Espaço entre itens */
+	object-fit: contain /*img encaixa sem distorcer*/
+	
 }
 .logocl span{
     text-align: center;
     color: brown;
+	font-size: 0.9em;
+	white-space: nowrap;
 }
 
 
