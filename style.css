@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.barra{
+    background-color: rgba(255, 255, 255, 0.548);
+    height: 85px;}
+body{
+    background-color: rgb(82, 82, 82);}
+.logocl{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-decoration: none;
+     border: none;
+     cursor: pointer;
+}
+.logocl img{
+    width: 40px;
+    height: 70px;
+    display: block;
+}
+.logocl span{
+    text-align: center;
+    color: brown;
+}
+
+
