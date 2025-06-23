@@ -8,14 +8,14 @@
 }
 
 html{
-  font-size: 62.5;
+  font-size: 52.5;
 }
 
 body {
     background-color: rgba(0, 0, 0, 0.603);
     font-family: "Michroma", sans-serif;
     font-optical-sizing: auto;    
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
 .all{
   padding: 25px;
   background-color: white;
-  border-radius: 5px;  
+  border-radius: 50px;  
 }
 
 h1.all{
@@ -35,20 +35,20 @@ h1.all{
 
 div.clock{
   /*font-size: 40px;*/
-  font-size: 6rem;  
+  font-size: 4rem;  
   font-weight: 700;
   text-align: center;
   color: brown;
 }
 
 .greating{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   padding: 20px 0;
   text-align: center;
 }
 
 footer{
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   text-align: center;
   border-top: 1px solid white;
   padding-top: 20px;
