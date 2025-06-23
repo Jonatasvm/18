@@ -40,7 +40,11 @@ body{
 ir pra pasta do projeto(dentro da 18)
 git status
 git add .
-git commit -m "Sua mensagem de commit aqui"
+git commit -m "Arrumei tamanho relogio  "
 git push origin main
+
+
+#######Atualizar código do git com a maquina########
+git pull origin main
 */
 
