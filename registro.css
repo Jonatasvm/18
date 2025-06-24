@@ -8,7 +8,7 @@
 }
 
 html{
-  font-size: 52.5;
+  font-size: 62.5;
 }
 
 body {
@@ -21,13 +21,20 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column; /*Essa aqui é pra deixar a nova div acima da outra como coluna */
+ 
 }
 
 .all{
-  padding: 25px;
+  padding: 50px;
   background-color: white;
   border-radius: 50px;  
+  margin-top: 20px;
 }
+
+  .cab{padding: 50px;
+  background-color: white;
+  border-radius: 50px;}
 
 h1.all{
   text-align:center;
@@ -38,7 +45,7 @@ div.clock{
   font-size: 4rem;  
   font-weight: 700;
   text-align: center;
-  color: brown;
+  color: #ff003b;
 }
 
 .greating{
@@ -52,5 +59,61 @@ footer{
   text-align: center;
   border-top: 1px solid white;
   padding-top: 20px;
+}
+/*######CSS do botão######*/
+.wrapper{
+  margin-top: 10px;
+  margin-bottom: 10px;
 
+}
+
+
+button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px; /* Para centralizar texto verticalmente */
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none; /* Não se aplica a button, mas não interfere */
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  
+
+  /* ADICIONAL para buttons: */
+  background: none; /* Remove o fundo padrão do botão */
+  cursor: pointer; /* Garante que o cursor mude para indicar que é clicável */
+  padding: 0; /* Remove padding padrão do botão que pode afetar o line-height */
+}
+
+button span{
+  position: relative;
+  z-index: 2;
+}
+
+
+button:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background:#ff003b;
+   /*cor bonita  #023e50d3 */
+  
+  transition: all .35s;
+}
+
+
+button:hover{
+  color: #fff;
+}
+
+button:hover:after{
+  width: 100%;
 }
